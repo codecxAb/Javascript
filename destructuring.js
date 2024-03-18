@@ -17,12 +17,3 @@ let { name, age } = person;
 console.log(name); // John Doe
 console.log(age); // 3
 
-//this is call  rest property which will take all the remaining properties of
-//object in an array
-//fuhifh4fjo4f0i4
-//oevk4kobkb[p45]
- name = "Jane Doe";
- age = 28;
-let { name: n, age: a, ...details } = { name, age };
-
-console.log(n); // Jane Doe
