@@ -19,3 +19,4 @@ console.log(age); // 3
 
 //this is call  rest property which will take all the remaining properties of
 //object in an array
+//fuhifh4fjo4f0i4
