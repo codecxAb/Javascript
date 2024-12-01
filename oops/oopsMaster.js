@@ -40,3 +40,14 @@ class Vehile{
 }
 const mercedes = new Vehile("Mercedes", "Benz", 2019);
 console.log(mercedes.start());
+
+// inheritance
+
+class Car extends Vehile{
+    drive(){
+        return `${this.make} car is driving ${this.model}`
+    }
+}
+
+const tata = new Car("Tata", "Safari", 2015);
+console.log(tata.drive());
